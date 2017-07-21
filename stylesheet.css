@@ -1,0 +1,230 @@
+*
+{
+	margin:0;
+}
+
+body,html
+{
+	height: 100%;
+}
+
+body
+{
+	position:relative;
+}
+
+.home
+{
+	background-image: url("home.jpg");
+	background-size:cover; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+}
+
+.row-about
+{
+	padding:50px 0px 50px 0px;
+}
+
+.row-address
+{
+	text-align: center;
+}
+
+.row-socialMedia
+{
+	text-align: center;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+
+.jumbotron
+{
+	background-color:   #D1C4E9;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.data
+{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+.heading
+{
+	font-family: font;
+}
+
+.label
+{
+	font-family:comicbd;
+	font-size: 20px;
+}
+
+@font-face {
+    font-family: font;
+    src: url(segoeprb.ttf);
+    
+}
+
+@font-face {
+    font-family: comicbd;
+    src: url(comicbd.ttf);
+    font-weight: bold;
+}
+
+.col-heading
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.col-form
+{
+	padding:30px;
+}
+
+.row-skills
+{
+	padding-bottom: 30px;
+}
+
+.skillSet
+{
+	padding:25px;
+	font-family: comicbd;
+}
+
+.percent
+{
+	font-family: verdana;
+	font-size:1.3em;
+}
+
+.pb
+{
+	text-align: right;
+}
+
+.pbar
+{
+	background-color:white;
+}
+
+#c
+{
+	background-color: #cc9900;
+}
+
+#java
+{
+	background-color: #008080;
+}
+
+.carousel
+{
+	background: gray;
+}
+
+.sub-head
+{
+	font-family: verdana;
+	font-weight: bold;
+	margin: 15px;
+	color:white;
+}
+
+.edu-content
+{
+	font-size: 22px;
+	margin: 40px;
+	font-family:tahoma;
+	color:white;
+}
+
+.carousel-item
+{
+	height: 100%;
+	width:100%;
+}
+
+#education
+{
+	background-image: url("education.png");
+	background-size:cover; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+#intro
+{
+	background-image: url("intro.jpg");
+	background-size:cover; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+#scroll
+{
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+	height: 70px;
+	width: 70px;
+}
+
+#skillSection
+{
+	border-bottom:1px solid black;
+	border-top:1px solid black;
+}
+
+
+.vertical-center {
+     
+
+  display: flex;
+  align-items: center;
+}
+
+#myname
+{
+	color:white;
+	font-family:font;
+	font-weight: normal;
+	font-size: 30px;
+}
+
+#quote
+{
+	font-size: 24px;
+	font-family:tahoma;
+	color:#808080;
+}
+
+@media screen and (min-width: 768px)
+{
+	#quote
+	{
+		font-size: 35px;
+	}
+}
+
+@media screen and (min-width: 992px)
+{
+	#quote
+	{
+		font-size: 40px;
+	}
+}
+
+@media screen and (min-width: 768px)
+{
+	#myname
+	{
+		font-size: 45px;
+	}
+}

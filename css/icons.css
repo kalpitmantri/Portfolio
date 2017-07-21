@@ -1,0 +1,54 @@
+.icon-wrapper {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 2.5em;
+  border-radius: 40%;
+  padding: .5em .5em;
+  margin:15px;
+}
+
+.icon:hover {
+  background-color: white;
+  -webkit-transition: background-color .5s;
+  transition: background-color 1s;
+}
+
+/**@media (max-width: 480px) {
+  .icon {
+    font-size: 4em;
+  }
+  .icon-wrapper {
+    width: 7em;
+  }    
+}
+@media (max-width: 410px) {
+  .icon {
+    font-size: 3.5em;
+  }
+  .icon-wrapper {
+    width: 6.5em;
+  }  
+}
+@media (max-width: 320px) {
+  .icon {
+    font-size: 3em;
+  }
+  .icon-wrapper {
+    width: 5em;
+  }    
+}*/
+
+.fa-twitter-square {
+  color: #55acee;
+}
+
+.fa-linkedin-square {
+  color: #007bb5;
+}
+
+.fa-github {
+  color: #000;
+}
