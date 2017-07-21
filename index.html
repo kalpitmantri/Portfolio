@@ -92,34 +92,34 @@
 	 	<div class="row">
 	 		<div class="col">
 	 			<div class="carousel" id="mycarousel" data-ride="carousel">
-	 				<div class="carousel-inner">
-	 					<div class="carousel-item active" id="intro">
-	 						<div class="container">
-	 							<div class="row justify-content-center" style="padding: 30px; color: white;">
-	 								<h1 class="heading" style="color: white;">
-	 									<strong>
-	 										<li class="fa fa-user-o"></li> About Me
-	 										<hr style="border-top:2px solid black;">
-	 									</strong>
-	 								</h1>
-	 							</div>
-	 							<div class="row justify-content-center" style="margin: 40px; margin-top: auto;">
-	 								<div class="col-12 col-md-4 align-self-center">
-	 									<img src="kalpit.jpg"  class="img-circle img-responsive d-block img-fluid" alt="Cinque Terre" width="300" height="300px">
+	 					
+	 					<div class="carousel-inner">
+	 						<div class="carousel-item active" id="intro">
+	 							<div class="container">
+	 								<div class="row justify-content-center" style="padding: 20px; color: white;">
+		 								<h1 class="heading" id="#aboutmeHeading" style="color: white;">
+		 									<strong>
+		 										<li class="fa fa-user-o"></li> About Me
+		 										<hr style="border-top:2px solid black;">
+		 									</strong>
+		 								</h1>
 	 								</div>
-	 								<div class="col-12 col-md-8 align-self-center">
-	 									<div class=" justify-content-center d-block" style="font-size: 22px; font-family: tahoma; color:white;">
-															
-                 								Currently a student at The LNM Institute of Information Technology, Jaipur and pursuing my B.Tech. I am a self-growing Web Developer , who aims to become a Full Stack Developer. I have keen interest in WEB DEVELOPMENT and Open Source Development.
+
+	 								<div class="row justify-content-center">
+	 									<img src="kalpit.jpg" class="img-rounded img-responsive d-block" alt="Cinque Terre" id="aboutmeImage">
+	 								</div>
+
+	 								<div class="row justify-content-center" id="aboutmeContent">
+	 									<div>
+	 										Currently a student at The LNM Institute of Information Technology, Jaipur and pursuing my B.Tech. I am a self-growing Web Developer , who aims to become a Full Stack Developer. I have keen interest in WEB DEVELOPMENT and Open Source Development.
             									<br><br>
 			                					I love to code and travel around India.	I also Know languages rather than web development like C++ , C ,
 			                					and Java(moderate). I am also a gamer and addicted to console gaming.
-
-									   	</div>
+	 									</div>
 	 								</div>
 	 							</div>
-	 						</div>
 	 					</div>
+
 	 					<div class="carousel-item justify-content-center" id="education">
 		 						<div class="container" style="margin:50px;">
 		 							<div class="row justify-content-center" style="padding: 30px;">
@@ -140,7 +140,8 @@
 			 									</div>	
 			 									<div class="edu-content">
 			 										Passed Class 10th from Global Academy Secondary School,Salumber,Udaipur with 91%
-			 									<br><br>
+			 									</div>
+			 									<div class="edu-content">
 			 										Passed Class 12th from MDS Public School,Udaipur
 			 										with 94.2%
 			 									</div>
@@ -152,7 +153,8 @@
 			 									</div>
 			 									<div class="edu-content row">The LNM Institute of information technology
 			 									<br> 2016-2020
-			 									<br><br>
+			 									</div>
+			 									<div class="edu-content">
 			 									Successfully completed 1st year with 8.85 CGPA
 			 									</div>
 			 									
@@ -257,6 +259,18 @@
 							</div>
 						</div>
 			</div>
+
+			<div class="offset-md-3 col-md-6 col-12">
+				<div class="skillSet">
+							<h4>Bootstrap</h4>
+							<div class="progress pbar">
+						    	<div class="progress-bar pb" id="bootstrap" role="progressbar" aria-valuenow="70"
+								  aria-valuemin="0" aria-valuemax="100" style="width:70%">
+							    	<span class="percent">70%</span>
+								</div>
+							</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>	
@@ -295,7 +309,7 @@
 				 				</div>
 				 			</div>
 				 			<div class="row form-group">
-				 				<input type="submit" class="offset-3 btn btn-primary" name="" value="Send">
+				 				<input type="submit" id="sendButton" class="offset-3 btn btn-primary" name="" value="Send">
 				 			</div>
 			 		</form>
 		 	</div>
@@ -309,7 +323,7 @@
 	 -->
 
 	<footer class="jumbotron" id="contactSection">
-		<div class="container">
+		<div class="container justify-content-center">
 			
 			<div class="row row-address" id="div">
 				<div class="col-12">
@@ -319,7 +333,7 @@
 					<i class="fa fa-phone" style="font-size:45px;"></i><br>
 					<strong>Phone</strong><br>
 					<span>+91-8107892774<span><br>
-					<a class="btn btn-success" href="tel:+8107892774"><i class="fa fa-phone"></i> Call</a>
+					<a class="btn btn-success" href="tel:+91-8107892774"><i class="fa fa-phone"></i> Call</a>
 				</div>
 				<div class="col-12 col-md-4 data">
 					<i class="fa fa-map-marker" style="font-size:45px;"></i><br>

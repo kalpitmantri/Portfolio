@@ -124,6 +124,10 @@ body
 	background-color: #008080;
 }
 
+#bootstrap
+{
+	background-color: #004466;
+}
 .carousel
 {
 	background: gray;
@@ -195,14 +199,22 @@ body
 	color:white;
 	font-family:font;
 	font-weight: normal;
-	font-size: 30px;
+	font-size: 25px;
 }
 
 #quote
 {
-	font-size: 24px;
+	font-size: 20px;
 	font-family:tahoma;
 	color:#808080;
+}
+
+@media screen and (min-width: 540px)
+{
+	#quota
+	{
+		font-size: 30px;
+	}
 }
 
 @media screen and (min-width: 768px)
@@ -221,10 +233,71 @@ body
 	}
 }
 
+@media screen and (min-width: 540px)
+{
+	#myname
+	{
+		font-size: 30px;
+	}
+}
+
 @media screen and (min-width: 768px)
 {
 	#myname
 	{
 		font-size: 45px;
+	}
+}
+
+#aboutmeImage
+{
+	border:1px solid transparent;
+	border-radius: 65%;
+	box-shadow: 5px 5px 5px black;"
+	width:210px;
+	height:210px;
+}
+
+@media screen and (min-width: 540px)
+{
+	#aboutmeImage
+	{
+		width:200px;
+		height:230px;
+	}
+}
+
+@media screen and (min-width: 768px)
+{
+	#aboutmeImage
+	{
+		width: 250px;
+		height:280px;
+	}
+}
+
+#aboutmeContent
+{
+	color:white;
+	font-family: tahoma;
+	text-align: center;
+	font-size: 22px;
+	margin:12px;
+	margin-bottom: 40px;
+}
+
+@media screen and (min-width: 540px)
+{
+	#aboutmeContent
+	{
+		font-size: 20px
+	}
+}
+
+@media screen and (min-width: 768px)
+{
+	#aboutmeContent
+	{
+		font-size: 22px;
 	}
 }

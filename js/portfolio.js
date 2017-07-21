@@ -22,11 +22,10 @@ $(function(){
 		},700);
 	});
 
-	$("#scroll").draggable({
-			containment: "document",
-			opacity: .6,
-			cursor: "pointer"
-		});
+	$("#sendButton").click(function(){
+		alert("Your message has been sent");
+	});
+
 
 });
 
