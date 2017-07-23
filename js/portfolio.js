@@ -8,11 +8,11 @@ $(function(){
 
 	 // $("#div").effect("slide",500);
 
-	 $(window).load(function(){
-	 	$(".boxLoading").fadeOut('slow',function(){
-	 		$(this).remove();
-	 	});
-	 });
+	 // $(window).load(function(){
+	 // 	$(".boxLoading").fadeOut('slow',function(){
+	 // 		$(this).remove();
+	 // 	});
+	 // });
 
 	$(".nav-link").click(function(){
 		var linkId = $(this).attr("id");
