@@ -306,3 +306,8 @@ body
 		font-size: 22px;
 	}
 }
+
+.scrollVisible
+{
+	display:none;
+}
