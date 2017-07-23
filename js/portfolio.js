@@ -1,14 +1,13 @@
 
-$(window).on("load",function(){
-    $("#spinkitPreloader").delay(2000).fadeOut(1000);
-    $(".sk-folding-cube").fadeOut(2000,function(){
-    	$("*").removeClass("remove");
-    });
-   
- });
+
 
 
 $(document).ready(function(){	
+
+	$("#spinkitPreloader").delay(2000).fadeOut(1000);
+    $(".sk-folding-cube").fadeOut(2000,function(){
+    	$("*").removeClass("remove");
+    });
 
 	$(".nav-link").click(function(){
 		var linkId = $(this).attr("id");
