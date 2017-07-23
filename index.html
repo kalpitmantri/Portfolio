@@ -8,6 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
+    <!-- Spinkit preloader Css -->
+	<link rel="stylesheet" type="text/css" href="css/spinkit.css">
+
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
@@ -21,15 +25,7 @@
     <!-- External Css -->
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="stylesheet" type="text/css" href="css/icons.css">
-
-
-    <!-- ************************************************************************ -->
-
-	<link rel="stylesheet" type="text/css" href="jquery-ui.css">
-	
-	<link rel="stylesheet" type="text/css" href="css/loading.css">
-	
-
+    <link rel="stylesheet" type="text/css" href="css/preloader.css">
 
 </head>
 <body data-spy="scroll" data-targer="mainNavbar" data-offset="80">
@@ -40,7 +36,17 @@
 	 -->
 	 <!-- <div class="#preloader"></div>
  -->
- 	<nav class="navbar navbar-toggleable-sm navbar-inverse bg-info fixed-top" id="mainNavbar">
+
+ 	<div id="spinkitPreloader">
+      <div class="sk-folding-cube">
+        <div class="sk-cube1 sk-cube"></div>
+        <div class="sk-cube2 sk-cube"></div>
+        <div class="sk-cube4 sk-cube"></div>
+        <div class="sk-cube3 sk-cube"></div>
+      </div>
+    </div> 
+
+ 	<nav class="navbar navbar-toggleable-sm navbar-inverse bg-info fixed-top remove" id="mainNavbar">
 		<div class="container">
 			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
 				<span class="fa fa-bars"> </span>
@@ -63,8 +69,8 @@
 		 ################################       HOME       ###############################
 		 #################################################################################
 	 -->	 
-<div class="home jumbotron vertical-center">	 
-	<div class="container justify-content-center">
+<div class="home jumbotron vertical-center remove">	 
+	<div class="container justify-content-center remove">
 			<div class="row justify-content-center">
 				<h1 class="d-block" id="myname">
 		 			<strong>	
@@ -88,7 +94,7 @@
 	 -->
 
 <!-- <div class="container"> -->
-	 <div class="container-fluid" id="aboutSection">
+	 <div class="container-fluid remove" id="aboutSection">
 	 	<div class="row">
 	 		<div class="col">
 	 			<div class="carousel" id="mycarousel" data-ride="carousel">
@@ -189,7 +195,7 @@
 		 ################################     SKILLS       ###############################
 		 #################################################################################
 	 -->
-<div style="background-color:#a3a375" id="skillSection"> 
+<div style="background-color:#a3a375" id="skillSection" class="remove"> 
 	<div class="container jumbotron" style="background-color:#a3a375;">
 		<div class="row row-skills">
 			<div class="col-12" style="text-align: center;margin-bottom: 30px;">
@@ -282,7 +288,7 @@
 		 #################################################################################
 	 -->
 
-<div style="background-color: white;" id="messageSection">
+<div style="background-color: white;" id="messageSection" class="remove">
 <div class="container jumbotron" style="background-color: white;">
 	<div class="row">
 			<div class="col-12 col-heading" style="text-align: center;">
@@ -322,7 +328,7 @@
 		 #################################################################################
 	 -->
 
-	<footer class="jumbotron" id="contactSection">
+	<footer class="jumbotron remove" id="contactSection">
 		<div class="container justify-content-center">
 			
 			<div class="row row-address" id="div">
@@ -421,7 +427,7 @@
 		</div>
 	</footer>
 
-	<img src="icon.png" id="scroll">
+	<img src="icon.png" id="scroll" class="remove ">
 
 	<!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="js/jquery.min.js"></script>
@@ -429,7 +435,6 @@
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/icons.js"></script>
     <script type="text/javascript" src="js/portfolio.js"></script>
-    <!-- <script type="text/javascript" src="js/jquery.lineProgressbar.js"></script> -->
 
 </body>
 </html>

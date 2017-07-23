@@ -13,6 +13,11 @@ body
 	position:relative;
 }
 
+.remove
+{
+	display: none;
+}
+
 .home
 {
 	background-image: url("home.jpg");

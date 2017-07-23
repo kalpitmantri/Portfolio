@@ -1,18 +1,14 @@
-// $(".boxLoading").fadeOut('slow',function(){
-// 	$(this).remove();
-// });
 
-$(function(){	
+$(window).on("load",function(){
+    $("#spinkitPreloader").delay(2000).fadeOut(1000);
+    $(".sk-folding-cube").fadeOut(2000,function(){
+    	$("*").removeClass("remove");
+    });
+   
+ });
 
-	// $(".boxLoading").css("display","none");
 
-	 // $("#div").effect("slide",500);
-
-	 // $(window).load(function(){
-	 // 	$(".boxLoading").fadeOut('slow',function(){
-	 // 		$(this).remove();
-	 // 	});
-	 // });
+$(document).ready(function(){	
 
 	$(".nav-link").click(function(){
 		var linkId = $(this).attr("id");
