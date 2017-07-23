@@ -1,8 +1,4 @@
-
-
-
-
-$(document).ready(function(){	
+$(window).on('load',function(){	
 
 	$("#spinkitPreloader").delay(2000).fadeOut(1000);
     $(".sk-folding-cube").fadeOut(2000,function(){
