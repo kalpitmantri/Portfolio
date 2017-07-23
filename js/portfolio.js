@@ -1,12 +1,18 @@
-$(".boxLoading").fadeOut('slow',function(){
-	$(this).remove();
-});
+// $(".boxLoading").fadeOut('slow',function(){
+// 	$(this).remove();
+// });
 
 $(function(){	
 
-	$(".boxLoading").css("display","none");
+	// $(".boxLoading").css("display","none");
 
 	 // $("#div").effect("slide",500);
+
+	 $(window).load(function(){
+	 	$("#preloader").fadeOut('slow',function(){
+	 		$(this).remove();
+	 	});
+	 });
 
 	$(".nav-link").click(function(){
 		var linkId = $(this).attr("id");
