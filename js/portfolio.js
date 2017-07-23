@@ -12,7 +12,7 @@ $(function(){
 	 	$(".boxLoading").fadeOut('slow',function(){
 	 		$(this).remove();
 	 	});
-	
+	 });
 
 	$(".nav-link").click(function(){
 		var linkId = $(this).attr("id");
@@ -31,7 +31,5 @@ $(function(){
 	$("#sendButton").click(function(){
 		alert("Your message has been sent");
 	});
-
- });
 });
 
