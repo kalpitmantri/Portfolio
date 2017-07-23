@@ -12,7 +12,7 @@ $(function(){
 	 	$("#preloader").fadeOut('slow',function(){
 	 		$(this).remove();
 	 	});
-	 });
+	
 
 	$(".nav-link").click(function(){
 		var linkId = $(this).attr("id");
@@ -32,6 +32,6 @@ $(function(){
 		alert("Your message has been sent");
 	});
 
-
+ });
 });
 
