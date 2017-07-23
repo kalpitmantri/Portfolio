@@ -9,7 +9,7 @@ $(function(){
 	 // $("#div").effect("slide",500);
 
 	 $(window).load(function(){
-	 	$("#preloader").fadeOut('slow',function(){
+	 	$(".boxLoading").fadeOut('slow',function(){
 	 		$(this).remove();
 	 	});
 	
