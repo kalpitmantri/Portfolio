@@ -276,8 +276,8 @@ body
 {
 	#aboutmeImage
 	{
-		width: 280px;
-		height:280px;
+		width: 250px;
+		height:250px;
 	}
 }
 
@@ -307,7 +307,38 @@ body
 	}
 }
 
-.scrollVisible
+#carousel-button
 {
-	display:none;
+	position: absolute;
+	bottom:0;
+	right:15px;
+	size: 20px;
+}
+
+#educationHead
+{
+	color: white; 
+	font-size: 30px;
+}
+
+@media screen and (min-width: 540px)
+{
+	#educationHead
+	{
+		font-size: 40px;
+	}
+}
+
+#aboutmeHeading
+{
+	color: white;
+	font-size:32px;
+}
+
+@media screen and (min-width: 540px)
+{
+	#aboutmeHeading
+	{
+		font-size: 40px;
+	}
 }
